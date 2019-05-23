@@ -90,7 +90,7 @@ INFO Found 10 insertion points
 --help, -h                               Show help
 ```
 
-##Compiling from Sources
+## Compiling from sources
 
 Clone project or use go get, then cd into folder and run make build
 ```bash
