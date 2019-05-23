@@ -96,8 +96,7 @@ Clone project or use go get, then cd into folder and run make build
 ```bash
 go get github.com/georlav/objectmap
 cd $GOPATH/src/github.com/georlav/objectmap
-make build 
-sudo make install
+make build
 ```
 
 ## Running the tests
