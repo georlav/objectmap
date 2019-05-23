@@ -103,7 +103,8 @@ sudo make install
 ## Running the tests
 
 ```bash
-go run ./... -v
+cd $GOPATH/src/github.com/georlav/objectmap
+make test
 ```
 
 ## Versioning
