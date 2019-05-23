@@ -1,0 +1,7 @@
+POST /form HTTP/1.1
+Host: 127.0.0.1:8056
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Content-Length: 42
+Cookie: PHPSESSID=298zf09hf012fh2; csrftoken=u32t4o3tb3gg43; _gat=1;
+
+license=string&content=string&paramsXML=ss
