@@ -19,6 +19,7 @@ before_script:
 script:
   - golangci-lint run
   - go test ./... -race -coverprofile=coverage.txt -covermode=atomic
+  - go build -o objectmap -mod=vendor -ldflags "-s -w" cmd/objectmap/objectmap.go && ./objectmap
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
