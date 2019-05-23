@@ -16,7 +16,7 @@ func TestHTTPClient_NewRequestFromFile(t *testing.T) {
 	}{
 		{File: "testdata/get.req", Method: "GET", BodyLength: 0},
 		{File: "testdata/post.req", Method: "POST", BodyLength: 42},
-		{File: "testdata/post-multipart-form.req", Method: "POST", BodyLength: 253},
+		{File: "testdata/post-multipart-form.req", Method: "POST", BodyLength: 49},
 	}
 
 	hc := httpclient.New(time.Second*10, useragent.Default(), true)
