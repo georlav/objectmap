@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/georlav/objectmap.svg?token=LUHt821atupKxCks2oys&branch=master)](https://travis-ci.com/georlav/objectmap)
+[![Go Report Card](https://goreportcard.com/badge/github.com/georlav/objectmap)](https://goreportcard.com/report/github.com/georlav/objectmap)
 [![](https://img.shields.io/badge/unicorn-approved-ff69b4.svg)](https://www.youtube.com/watch?v=9auOCbH5Ns4)
 
 # ObjectMap
@@ -9,6 +10,10 @@ vulnerabilities. Tool is implemented in GoLang
 Currently tests for
  * PHP Object Injection
  * Java Deserialization
+ 
+## Requirements
+
+ * golang
  
 ## Basic usage examples
 
@@ -83,6 +88,16 @@ INFO Found 10 insertion points
 --banner, -b                             Retrieve server banner
 --verbose value, -v value                Set the verbosity level [1-5] (default: 4)
 --help, -h                               Show help
+```
+
+##Compiling from Sources
+
+Clone project or use go get, then cd into folder and run make build
+```bash
+go get github.com/georlav/objectmap
+cd $GOPATH/src/github.com/georlav/objectmap
+make build 
+sudo make install
 ```
 
 ## Running the tests
