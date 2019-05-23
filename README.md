@@ -35,6 +35,7 @@ Application analyzes target, calculates all the available insertion points and i
 insecure deserialization vulnerabilities.
 
 ## Report example
+
 ```Results
 INFO Calculating insertion points                 
 INFO Found 10 insertion points                    
@@ -61,6 +62,7 @@ INFO Found 10 insertion points
 ```
 
 ## Available Options
+
 ```
 --url value, -u value                    Target url
 --url-scheme value, --us value           Set the URL scheme [http, https] (default: "http")
@@ -81,15 +83,19 @@ INFO Found 10 insertion points
 ```
 
 ## Running the tests
+
 ```bash
 go run ./... -v
 ```
 
 ## Versioning
+
 We use [SemVer](http://semver.org/) for versioning. 
 
 ## Authors
+
 * **georlav** - *Initial work*
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
