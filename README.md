@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/georlav/objectmap.svg?token=LUHt821atupKxCks2oys&branch=master)](https://travis-ci.com/georlav/objectmap)
+
 # ObjectMap
 
 A Simple command line tool that helps you check web applications to identify insecure deserialization
