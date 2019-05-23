@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/georlav/objectmap.svg?token=LUHt821atupKxCks2oys&branch=master)](https://travis-ci.com/georlav/objectmap)
-![](https://img.shields.io/badge/unicorn-approved-ff69b4.svg)
+[![](https://img.shields.io/badge/unicorn-approved-ff69b4.svg)](https://www.youtube.com/watch?v=9auOCbH5Ns4)
 
 # ObjectMap
 
