@@ -7,9 +7,6 @@ os:
   - linux
   - osx
 
-# Skip the install step. Don't `go get` dependencies. Only build with vendor
-install: true
-
 # Don't email me the results of the test runs.
 notifications:
   email: false
