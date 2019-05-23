@@ -1,13 +1,15 @@
 language: go
 
 go:
-  - "1.12.x"
+  - "1.12.5"
+
+env:
+  - GO111MODULE=on
 
 os:
   - linux
   - osx
 
-# Don't email me the results of the test runs.
 notifications:
   email: false
 
