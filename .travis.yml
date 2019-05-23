@@ -1,12 +1,18 @@
 language: go
 
 go:
-  - "1.11.x"
   - "1.12.x"
 
 os:
   - linux
   - osx
+
+# Skip the install step. Don't `go get` dependencies. Only build with vendor
+install: true
+
+# Don't email me the results of the test runs.
+notifications:
+  email: false
 
 before_script:
   - curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b $(go env GOPATH)/bin v1.16.0
