@@ -1,5 +1,7 @@
 module objectmap
 
+go 1.12
+
 require (
 	github.com/gookit/color v1.1.7
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
