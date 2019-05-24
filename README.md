@@ -87,12 +87,15 @@ INFO Found 10 insertion points
 --help, -h                               Show help
 ```
 
-## Compiling from sources
-
-Clone project or use go get, then cd into folder and run make build
+## Installing
 ```bash
-go get github.com/georlav/objectmap
-cd $GOPATH/src/github.com/georlav/objectmap
+go get github.com/georlav/objectmap/cmd/objectmap
+```
+
+## Compiling from sources
+```
+git clone git@github.com:georlav/objectmap.git
+cd objectmap
 make build
 ```
 
