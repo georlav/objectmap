@@ -2,10 +2,11 @@ package httpclient_test
 
 import (
 	"io/ioutil"
-	"objectmap/httpclient"
-	"objectmap/useragent"
 	"testing"
 	"time"
+
+	"github.com/georlav/objectmap/httpclient"
+	"github.com/georlav/objectmap/useragent"
 )
 
 func TestHTTPClient_NewRequestFromFile(t *testing.T) {

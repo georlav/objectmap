@@ -5,7 +5,8 @@ import (
 	"bytes"
 	"io/ioutil"
 	"net/http"
-	"objectmap/httpclient"
+
+	"github.com/georlav/objectmap/httpclient"
 
 	"github.com/pkg/errors"
 )

@@ -1,9 +1,10 @@
 package useragent_test
 
 import (
-	"objectmap/useragent"
 	"strings"
 	"testing"
+
+	"github.com/georlav/objectmap/useragent"
 )
 
 func TestDefault(t *testing.T) {

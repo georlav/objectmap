@@ -8,9 +8,10 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
-	"objectmap/httpclient"
 	"os"
 	"strings"
+
+	"github.com/georlav/objectmap/httpclient"
 
 	"github.com/pkg/errors"
 

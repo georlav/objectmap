@@ -5,8 +5,9 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"objectmap/useragent"
 	"time"
+
+	"github.com/georlav/objectmap/useragent"
 
 	"github.com/pkg/errors"
 )

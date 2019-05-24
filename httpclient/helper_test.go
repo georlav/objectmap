@@ -4,9 +4,10 @@ import (
 	"bytes"
 	"io/ioutil"
 	"net/http"
-	"objectmap/httpclient"
 	"strings"
 	"testing"
+
+	"github.com/georlav/objectmap/httpclient"
 )
 
 func TestReadBody(t *testing.T) {

@@ -7,16 +7,17 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/http/httputil"
-	"objectmap/cli"
-	"objectmap/httpclient"
-	"objectmap/insertionpoint"
-	"objectmap/payload"
-	"objectmap/pentest"
-	"objectmap/useragent"
 	"os"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/georlav/objectmap/cli"
+	"github.com/georlav/objectmap/httpclient"
+	"github.com/georlav/objectmap/insertionpoint"
+	"github.com/georlav/objectmap/payload"
+	"github.com/georlav/objectmap/pentest"
+	"github.com/georlav/objectmap/useragent"
 
 	"github.com/gookit/color"
 
