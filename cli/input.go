@@ -143,6 +143,7 @@ func newCliApp() *cli.App {
 	app.Name = AppName
 	app.Usage = ""
 	app.Author = "georlav"
+	// nolint:lll
 	app.Description = `A Simple tool that helps you check PHP and Java applications for insecure deserialization vulnerabilities.`
 	app.UsageText = `objectmap --url https://example.com [options]`
 	app.Version = "v0.0.1"
