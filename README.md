@@ -82,8 +82,6 @@ INFO Found 10 insertion points
 --timeout value, -t value                Set the max timeout limit in seconds for http requests (default: 10)
 --user-agent value                       Set client user agent (default: "ObjectMap/1.0")
 --random-agent                           Set client to use a random user agent
---packages, -p                           If target is vulnerable try to enumerate application packages
---packages-rop, --vp                     If target is vulnerable try to enumerate packages that can be used to start a POP chain
 --banner, -b                             Retrieve server banner
 --verbose value, -v value                Set the verbosity level [1-5] (default: 4)
 --help, -h                               Show help
