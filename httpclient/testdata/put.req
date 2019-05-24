@@ -1,4 +1,4 @@
-PUT /form HTTP/1.1
+PUT /forms HTTP/1.1
 Host: 127.0.0.1:8056
 Connection: keep-alive
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
