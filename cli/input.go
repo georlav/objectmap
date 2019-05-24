@@ -143,9 +143,9 @@ func newCliApp() *cli.App {
 	app.Name = AppName
 	app.Usage = ""
 	app.Author = "georlav"
-	app.Description = "Object Injection Vulnerability Scanner"
-	app.UsageText = AppName + " --url https://example.com [options]"
-	app.Version = "0.0.1"
+	app.Description = `A Simple tool that helps you check PHP and Java applications for insecure deserialization vulnerabilities.`
+	app.UsageText = `objectmap --url https://example.com [options]`
+	app.Version = "v0.0.1"
 	app.Commands = []cli.Command{}
 
 	return app
