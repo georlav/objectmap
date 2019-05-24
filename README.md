@@ -3,7 +3,6 @@
 [![](https://img.shields.io/badge/unicorn-approved-ff69b4.svg)](https://www.youtube.com/watch?v=9auOCbH5Ns4)
 
 # ObjectMap
-
 A Simple command line tool that helps you check PHP and Java applications for insecure deserialization vulnerabilities.
 Tool is implemented in GoLang
 
