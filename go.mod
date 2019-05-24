@@ -1,4 +1,4 @@
-module objectmap
+module github.com/georlav/objectmap
 
 go 1.12
 
