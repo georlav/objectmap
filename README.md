@@ -4,7 +4,6 @@
 
 # ObjectMap
 A Simple command line tool that helps you check PHP and Java applications for insecure deserialization vulnerabilities.
-Tool is implemented in GoLang
 
 Supported checks
  * PHP Object Injection
