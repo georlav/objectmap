@@ -88,7 +88,7 @@ INFO Found 10 insertion points
 
 ## Installing
 ```bash
-go get github.com/georlav/objectmap/cmd/objectmap
+go get -u github.com/georlav/objectmap/cmd/objectmap
 ```
 
 ## Compiling from sources
