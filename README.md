@@ -50,13 +50,13 @@ INFO Found 10 insertion points
 +--------------------+----------------------+------------+
 | Param[paramsXML]   | PHP Object Injection | Clean      |
 | Cookie[_gat]       | Java Deserialization | Clean      |
-| Cookie[PHPSESSID]  | Java Deserialization | Vulnerable |
+| Cookie[PHPSESSID]  | Java Deserialization | Clean      |
 | Param[license]     | PHP Object Injection | Clean      |
 | Cookie[PHPSESSID]  | PHP Object Injection | Clean      |
 | Cookie[csrftoken]  | PHP Object Injection | Clean      |
 | Param[license]     | Java Deserialization | Clean      |
 | Cookie[csrftoken]  | Java Deserialization | Clean      |
-| Param[content]     | PHP Object Injection | Clean      |
+| Param[content]     | PHP Object Injection | Vulnerable |
 | Header[User-Agent] | PHP Object Injection | Clean      |
 | Param[paramsXML]   | Java Deserialization | Clean      |
 | Header[User-Agent] | Java Deserialization | Clean      |
