@@ -245,16 +245,11 @@ func newCliAppFlags(ci *Input) []cli.Flag {
 	}
 }
 
-func validateParsedFlags(ci Input, v Validator) (err error) {
+func validateParsedFlags(ci Input, v Validator) error {
 	// Validate http method
-	if err = v.HTTPMethod(ci.Method); err != nil {
+	if err := v.HTTPMethod(ci.Method); err != nil {
 		return err
 	}
 
-	// validate verbosity
-	if err = v.VerboseLevel(ci.Verbosity); err != nil {
-		return err
-	}
-
-	return nil
+	return v.VerboseLevel(ci.Verbosity)
 }

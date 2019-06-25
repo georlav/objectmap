@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/georlav/objectmap.svg?token=LUHt821atupKxCks2oys&branch=master)](https://travis-ci.com/georlav/objectmap)
-[![Go Report Card](https://goreportcard.com/badge/github.com/georlav/objectmap)](https://goreportcard.com/report/github.com/georlav/objectmap)
+[![Go Report Card](https://goreportcard.com/badge/github.com/georlav/objectmap?v=1)](https://goreportcard.com/report/github.com/georlav/objectmap)
 [![](https://img.shields.io/badge/unicorn-approved-ff69b4.svg)](https://www.youtube.com/watch?v=9auOCbH5Ns4)
 
 # ObjectMap
@@ -50,13 +50,13 @@ INFO Found 10 insertion points
 +--------------------+----------------------+------------+
 | Param[paramsXML]   | PHP Object Injection | Clean      |
 | Cookie[_gat]       | Java Deserialization | Clean      |
-| Cookie[PHPSESSID]  | Java Deserialization | Vulnerable |
+| Cookie[PHPSESSID]  | Java Deserialization | Clean      |
 | Param[license]     | PHP Object Injection | Clean      |
 | Cookie[PHPSESSID]  | PHP Object Injection | Clean      |
 | Cookie[csrftoken]  | PHP Object Injection | Clean      |
 | Param[license]     | Java Deserialization | Clean      |
 | Cookie[csrftoken]  | Java Deserialization | Clean      |
-| Param[content]     | PHP Object Injection | Clean      |
+| Param[content]     | PHP Object Injection | Vulnerable |
 | Header[User-Agent] | PHP Object Injection | Clean      |
 | Param[paramsXML]   | Java Deserialization | Clean      |
 | Header[User-Agent] | Java Deserialization | Clean      |
@@ -88,7 +88,7 @@ INFO Found 10 insertion points
 
 ## Installing
 ```bash
-go get github.com/georlav/objectmap/cmd/objectmap
+go get -u github.com/georlav/objectmap/cmd/objectmap
 ```
 
 ## Compiling from sources
