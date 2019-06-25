@@ -1,8 +1,9 @@
 GET /cookies HTTP/1.1
 Host: 127.0.0.1:8056
-User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
-Accept-Language: en-us
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: http://192.168.28.131:8056/cookies
 Accept-Encoding: gzip, deflate
 Accept-Language: en-US,en;q=0.9,el;q=0.8
-Connection: Keep-Alive
-Cookie: PHPSESSID=7b095pnos2tum6kk69g308f6b6; obj=a%3A3%3A%7Bi%3A0%3Bs%3A3%3A%22red%22%3Bi%3A1%3Bs%3A4%3A%22blue%22%3Bi%3A2%3Bs%3A5%3A%22green%22%3B%7D
+Cookie: PHPSESSID=5pf87lqnfm702i9cq4o0bvr513; obj=a%3A3%3A%7Bi%3A0%3Bs%3A3%3A%22red%22%3Bi%3A1%3Bs%3A4%3A%22blue%22%3Bi%3A2%3Bs%3A5%3A%22green%22%3B%7D

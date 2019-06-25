@@ -5,4 +5,4 @@ Content-Type: application/x-www-form-urlencoded
 User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
 Cookie: PHPSESSID=298zf09hf012fh2; csrftoken=u32t4o3tb3gg43; _gat=1;
 
-license=string&content=string&paramsXML=ss
+license=string&content=string&payload=ss
