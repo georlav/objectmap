@@ -34,11 +34,6 @@ func RequestFromFile(filepath string) (*http.Request, error) {
 		req.Header.Set(k, rr.Header.Get(k))
 	}
 
-	// Copy Cookies
-	for _, v := range rr.Cookies() {
-		req.AddCookie(v)
-	}
-
 	return req, err
 }
 
